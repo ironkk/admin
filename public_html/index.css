@@ -1,0 +1,125 @@
+body,html{
+    width:100%;
+    height:100%;
+    padding:0px;
+    margin:0px;
+   background: url("madmin.online.jpg");
+}
+#up{
+    background-color: blue;
+    width: 100%;
+    height: 15%;
+    border-style: solid;
+    border-width: 5px;
+    display: block;
+}
+
+#log{
+    background-color: white;
+    height: 193px;
+    width: 29%;
+    border-style: solid;
+    border-width:2px;
+    display: block;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    
+
+}
+img,input{
+    display: inline-block;
+    margin: 0 auto;
+}
+#usuario{
+    height: 22px;
+    margin: 13px auto;
+   width: 85%;
+   margin-left: 10px;
+   padding-left: 27px;
+    background: url("icon1.png") no-repeat scroll 0 0 transparent;
+}
+#password{
+    height: 22px;
+    margin: 13px auto;
+    width: 85%;
+     margin-left: 10px;
+     padding-left: 28px;
+      background: url("icon2.png") no-repeat scroll 0 0 transparent;
+}
+
+#title{
+    background-color: #FF7F50;
+    padding: 6px;
+    width: 97%;
+    height: 20%;
+    text-align:center;
+    border-style: solid;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+h1{
+    color: white;
+    font-family: Raleway;
+    font-size: 26px;
+    top: 40px;
+    padding: 0px;
+}
+
+h4{
+    color:black;
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-family: Raleway;
+    text-align: center;
+    
+}
+#down{
+    background-color: white;
+    width: 30%;
+    height: 70px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px 50px;
+    display: block;
+    margin: 0 auto;
+}
+#submit{
+  background-color: #FF7F50;
+padding: 9px;
+    width: 20%;
+    text-align:center;
+    border-style: solid;
+    display: inline-block;;
+    margin: 0 auto;
+    border-radius: 10px;  
+    color:white;
+     font-family: Raleway;
+    font-size: 26px; 
+     margin-left:290px;
+     margin-top: 10px;
+}
+
+
+
+#remember{
+  background-color: white;
+padding: 9px;
+    width: 25%;
+    text-align:center;
+    border-style: solid;
+    display: inline-block;;
+    margin: 0 auto;
+    border-radius: 10px;  
+    color:black;
+     font-family: Raleway;
+    font-size: 12px; 
+    margin-left: 10px;
+}
+
+#submit:hover{
+    color: #FF7F50;
+    background-color: white;
+    cursor: pointer;
+   
+}
